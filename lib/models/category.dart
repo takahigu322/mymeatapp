@@ -5,7 +5,7 @@ class Category {
   final String title;
   final Color color;
 
-  Category({
+  const Category({
     @required this.id,
     @required this.title, //id,titleなしではエラーが発生する
     this.color = Colors.orange,
